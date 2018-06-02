@@ -1,0 +1,321 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+body {
+	width: 100%;
+	margin:0;
+	font-family: OSCB;
+}
+
+header{
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	min-height: 600px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+
+}
+.video_block{
+	position: absolute;	
+	z-index: -100;
+	top:50%;
+	left: 50%;
+	height: 100%;
+	width:100%;
+
+}
+
+video{
+	transform: translate(-50%, -50%);
+	z-index: -100;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+
+
+/*background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+*/
+
+}
+
+.about_us{
+
+	font-size:1.7em;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	padding: 80px 10% 0;
+	color:white;
+}
+
+.service_guarantees{
+	min-height: 600px;
+	color: rgb(89, 54, 54);
+}
+
+.service_guarantees p{
+	text-align: center;
+}
+.mark_big{
+	font-size: 1.8em;
+}
+
+.service,.guarantees{
+	padding:80px 2% 0;
+	float:left;
+	width:50%;
+}
+.guarantees ul, .service ul, .mark_mdl{
+	width:80%;
+	margin: 0 auto;
+	font-size:1.4em;
+}
+.guarantees li:before, .service li:before {
+	content:' - ';
+}
+
+li{
+	list-style:none;
+}
+
+.rubber{
+	background: url('../img/rubberm.jpg');
+}
+.autoparts{
+	background: url('../img/autom.jpg');
+}
+.sanitary{
+	background: url('../img/sanitarym.jpg');
+}
+.img_background{
+	position:relative;
+	z-index: -100;
+	height:600px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.products_div{
+	height:600px;
+	background: rgba(130, 82, 82, 0.5);
+	padding:0 15%;
+}
+
+.products_div h1{
+	color:white;
+	padding-top: 150px;
+}
+
+h1{
+	margin:0;
+	text-align: center;
+}
+
+footer {
+	color: rgb(89, 54, 54);
+	height:600px;
+}
+.contacts{
+	padding: 200px 5% 0;
+	width:30%;
+	float:left;
+
+}
+.contact h1{
+	font-size:1.6em;
+}
+.contacts ul{
+
+	font-size:1.1em;
+}
+
+.slog{
+	width:70%;
+	float:left;
+	padding: 200px 5% 0;
+	font-size:1.6em;
+}
+
+@media screen and (min-width: 240px) and (max-width: 500px){
+	.about_us{
+		font-size:1em;
+		padding: 5px 1% 0;
+	}
+
+	.mark_big{
+		font-size: 1em;
+	}
+
+	
+	.service,.guarantees{
+		padding:5px 0.5% 0;
+		width:100%;
+		height: 300px;
+
+	}
+	.guarantees ul, .service ul, .mark_mdl{
+		width:99%;
+		font-size:0.8em;
+
+	}
+
+	.products_div{
+		padding:0 2%;
+		font-size:0.6em;
+	}
+
+	.products_div h1{
+		padding-top: 30px;
+	}
+	.contacts{
+			padding: 100px 5% 0;
+		width:100%;
+	}
+	.contact h1{
+		font-size:1em;
+	}
+	.contacts ul{
+		font-size:1em;
+	}
+
+	.slog{
+		width:100%;
+		padding: 100px 15% 0;
+		font-size:1em;
+	}
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+	.about_us{
+		font-size:1.4em;
+		padding: 15px 3% 0;
+	}
+
+	.mark_big{
+		font-size: 1.2em;
+	}
+
+	
+	.service,.guarantees{
+		padding:40px 2% 0;
+		width:100%;
+		height: 300px;
+	}
+	
+	.guarantees ul, .service ul, .mark_mdl{
+		width:97%;
+		font-size:1em;
+
+	}
+
+	.products_div{
+		padding:0 3%;
+		font-size:0.8em;
+	}
+
+	.products_div h1{
+		padding-top: 70px;
+	}
+	.contacts{
+		padding: 200px 2% 0;
+		width:50%;
+	}
+	.contact h1{
+		font-size:1em;
+	}
+	.contacts ul{
+		font-size:0.8em;
+	}
+
+	.slog{
+		width:50%;
+		padding: 200px 2% 0;
+		font-size:1.1em;
+	}
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px){
+.about_us{
+	font-size:1.5em;
+	padding: 30px 5% 0;
+}
+
+.mark_big{
+	font-size: 1.5em;
+}
+
+.service,.guarantees{
+	padding:10px 0 0;
+
+}
+.guarantees ul, .service ul, .mark_mdl{
+	width:95%;
+	font-size:1.2em;
+}
+
+.products_div{
+	padding:0 6%;
+	font-size:1em;
+}
+
+.products_div h1{
+	padding-top: 90px;
+}
+.contacts{
+	padding: 200px 2% 0;
+	width:50%;
+}
+.contact h1{
+	font-size:1.2em;
+}
+.contacts ul{
+	font-size:1em;
+}
+
+.slog{
+	width:50%;
+	padding: 200px 2% 0;
+	font-size:1.2em;
+}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+	.about_us{
+		padding: 60px 8% 0;
+	}
+
+	.service,.guarantees{
+		padding:20px 1% 0;
+
+	}
+	.guarantees ul, .service ul, .mark_mdl{
+		width:90%;
+	}
+
+	.products_div{
+		padding:0 10%;
+	}
+
+	.products_div h1{
+		padding-top: 120px;
+	}
+
+}
+
